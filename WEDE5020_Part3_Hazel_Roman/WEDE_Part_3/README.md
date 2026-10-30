@@ -65,16 +65,24 @@ WEDE_Part_3/
 ## Responsive evidence checklist
 Add genuine screenshots to `evidence/` and update the entries below with the exact filenames/device widths:
 - [ ] **Figure 1 — Desktop homepage** (approximately 1366 × 768 or wider): `evidence/figure-01-desktop-home.png`
-- [ ] **Figure 2 — Tablet homepage** (approximately 768 × 1024): `evidence/figure-02-tablet-home.png`
-- [ ] **Figure 3 — Mobile homepage** (approximately 390 × 844): `evidence/figure-03-mobile-home.png`
-- [ ] **Figure 4 — Services search results**: `evidence/figure-04-services-search.png`
-- [ ] **Figure 5 — Enquiry validation feedback**: `evidence/figure-05-enquiry-validation.png`
-- [ ] **Figure 6 — Contact validation/email preparation**: `evidence/figure-06-contact-form.png`
-- [ ] **Figure 7 — Gallery lightbox**: `evidence/figure-07-gallery-lightbox.png`
-- [ ] **Figure 8 — Map embeds**: `evidence/figure-08-maps.png`
-- [ ] **Figure 9 — Browser console after testing**: `evidence/figure-09-console.png`
+    <img width="1853" height="899" alt="image" src="https://github.com/user-attachments/assets/77cfd977-b763-41b9-a22f-3c65a73adc84" />
+<img width="1777" height="979" alt="image" src="https://github.com/user-attachments/assets/f03168b8-b88c-4ab0-8381-52a60eab62b0" />
+- [ ] **Figure 3 — Services search results**: `evidence/figure-04-services-search.png`
+      <img width="1488" height="813" alt="image" src="https://github.com/user-attachments/assets/1060fec1-a754-458d-b143-9b36c3b3f69e" />
 
-For each screenshot, briefly explain the viewport, action taken and what the evidence demonstrates. Use browser responsive mode or real devices, and ensure the screenshot actually shows the site at the stated dimensions.
+- [ ] **Figure 4 — Enquiry validation feedback**: `evidence/figure-05-enquiry-validation.png`
+    <img width="1729" height="905" alt="image" src="https://github.com/user-attachments/assets/25e200fd-d3e1-4785-a708-1a8f1cdd4cbe" />
+<img width="1482" height="639" alt="image" src="https://github.com/user-attachments/assets/ab6704c4-b9db-4a24-aee7-4c450d5b582d" />
+<img width="810" height="208" alt="image" src="https://github.com/user-attachments/assets/1dd7896f-f9fe-47ad-8202-963b5c203e5b" />
+- [ ] **Figure 5 — Contact validation/email preparation**: `evidence/figure-06-contact-form.png`
+    <img width="1517" height="874" alt="image" src="https://github.com/user-attachments/assets/7386c763-3221-462f-bbd4-86ed2bf7665c" />
+<img width="1082" height="764" alt="image" src="https://github.com/user-attachments/assets/02718839-c8d8-4659-bd15-272f89f55179" />
+- [ ] **Figure 7 — Gallery lightbox**: `evidence/figure-07-gallery-lightbox.png`
+    <img width="1696" height="905" alt="image" src="https://github.com/user-attachments/assets/5088b541-8058-4067-8284-73bc92a44d1a" />
+    <img width="1600" height="789" alt="image" src="https://github.com/user-attachments/assets/e7e39387-2ed1-4644-a4bd-9f7cd177f0f5" />
+
+
+
 
 ## Suggested descriptive commit sequence
 Make each commit after completing and checking the corresponding change:
