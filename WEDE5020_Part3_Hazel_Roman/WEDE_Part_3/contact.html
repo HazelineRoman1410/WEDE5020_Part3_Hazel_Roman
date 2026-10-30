@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Meta information for the Contact page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mastercard Foundation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+
+    <meta name="description" content="Contact Mastercard Foundation offices and send a general enquiry.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Hazel Zintle Roman">
+    <meta property="og:title" content="Contact | Mastercard Foundation">
+    <meta property="og:description" content="Contact Mastercard Foundation offices and send a general enquiry.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/part3.css">
+    <script src="js/main.js" defer></script>
+  </head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="nav-brand">
+                <svg viewBox="0 0 48 32" fill="none"><circle cx="18" cy="16" r="12" fill="#EB001B"/><circle cx="30" cy="16" r="12" fill="#F79E1B"/><path d="M24 6.8a12 12 0 010 18.4 12 12 0 000-18.4z" fill="#FF5F00"/></svg>
+                <span>Mastercard Foundation</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content: Contact form, office info, and map -->
+    <main>
+        <section class="page-header">
+            <h1>Contact Us</h1>
+            <p>Have a general message for the Mastercard Foundation? Use the form below to send us an email, or visit one of our offices.</p>
+        </section>
+
+        <!-- Contact layout: Form on the left, office details on the right -->
+        <section class="contact-layout">
+            <!-- Contact Form: For sending a general message to the organisation -->
+            <form class="contact-form" id="contactForm" action="mailto:canadainfo@mastercardfdn.org" method="POST" enctype="text/plain" novalidate>
+                <h2>Send a Message</h2>
+
+                <!-- Name fields -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contactFirstName">First Name</label>
+                        <input type="text" id="contactFirstName" name="firstName" placeholder="Your first name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactLastName">Last Name</label>
+                        <input type="text" id="contactLastName" name="lastName" placeholder="Your last name" required>
+                    </div>
+                </div>
+
+                <!-- Email field -->
+                <div class="form-group">
+                    <label for="contactEmail">Email Address</label>
+                    <input type="email" id="contactEmail" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <!-- Message type dropdown -->
+                <div class="form-group">
+                    <label for="messageType">Message Type</label>
+                    <select id="messageType" name="messageType" required>
+                        <option value="" disabled selected>Select message type</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="media">Media / Press</option>
+                        <option value="partnership">Partnership</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="complaint">Complaint</option>
+                    </select>
+                </div>
+
+                <!-- Message body textarea -->
+                <div class="form-group">
+                    <label for="contactMessage">Your Message</label>
+                    <textarea id="contactMessage" name="message" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <!-- Submit button sends the form -->
+                <button type="submit" class="submit-btn">Send Message</button>
+            <p class="form-message" id="contactFeedback" role="status" aria-live="polite"></p>
+                </form>
+
+            <!-- Contact Information: Office addresses and details -->
+            <div class="contact-info">
+                <!-- Canada Office (Head Office) -->
+                <div class="office-card">
+                    <h3>Canada Office (Head Office)</h3>
+                    <p>
+                        250 Yonge Street, Suite 2400<br>
+                        Toronto, Ontario<br>
+                        Canada M5B 2L7<br><br>
+                        Email: <a href="mailto:canadainfo@mastercardfdn.org">canadainfo@mastercardfdn.org</a>
+                    </p>
+                </div>
+
+                <!-- Kigali Office (Rwanda) -->
+                <div class="office-card">
+                    <h3>Rwanda Office</h3>
+                    <p>
+                        KG 7 Ave, Kacyiru<br>
+                        Kigali, Rwanda<br><br>
+                        The Foundation's Africa hub, coordinating programmes across the continent.
+                    </p>
+                </div>
+
+                <!-- Nairobi Office (Kenya) -->
+                <div class="office-card">
+                    <h3>Kenya Office</h3>
+                    <p>
+                        ABC Place, Waiyaki Way<br>
+                        Nairobi, Kenya<br><br>
+                        East Africa regional operations and partner engagement.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section: Shows multiple office locations on a Google Map -->
+        <section class="map-section">
+            <h2>Our Locations</h2>
+            <!-- Google Maps embed showing Toronto head office location -->
+            <!-- Note: The assignment requires more than 1 location to be shown -->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.6893!2d-79.3832!3d43.6532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2s250%20Yonge%20St%2C%20Toronto%2C%20ON%20M5B%202L7%2C%20Canada!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    
+<section class="location-section" aria-labelledby="location-title"><div class="section-heading"><h2 id="location-title">Find an office</h2><p>Map previews for two office locations.</p></div><div class="map-grid"><article class="map-card"><h3>Toronto, Canada</h3><iframe title="Map showing Toronto, Canada" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Mastercard+Foundation+Toronto&output=embed"></iframe></article><article class="map-card"><h3>Kigali, Rwanda</h3><iframe title="Map showing Kigali, Rwanda" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Kigali+Rwanda&output=embed"></iframe></article></div></section>
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <p>&copy; 2025 Mastercard Foundation. All rights reserved.</p>
+        </div>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
