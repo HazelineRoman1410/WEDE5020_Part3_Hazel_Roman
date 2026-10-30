@@ -138,4 +138,3 @@ MDN Web Docs (n.d.) *Using the Fetch API* (consulted for general client-side web
 
 The Independent Institute of Education (2026) *Web Development (Introduction) WEDE5020: POE Paper and Marking Rubric*. Internal module assessment document.
 
-**AI disclosure:** If AI tools were used to plan, draft or troubleshoot any part of this project, follow the IIE's current AI disclosure requirements. Add your own accurate disclosure and screenshots of the relevant AI interaction as required by the module brief. Review, understand, test and personalise all generated work before submission.
