@@ -90,14 +90,14 @@ Make each commit after completing and checking the corresponding change:
 Fill this table in after testing the final version; do not mark a test passed unless you ran it.
 | Test | Expected result | Result/date |
 |---|---|---|
-| All navigation links | Open the intended local page | Pending |
-| Services search | Matching sections remain visible | Pending |
-| Enquiry required fields | Errors shown and focus moves to first invalid field | Pending |
-| Enquiry valid fields | Contextual acknowledgement shown | Pending |
-| Contact valid fields | Email application opens with subject/body | Pending |
-| Gallery image activation | Lightbox opens and closes by button/Escape | Pending |
-| Desktop/tablet/mobile | No unintended horizontal overflow; readable layout | Pending |
-| Console | No project JavaScript errors | Pending |
+| All navigation links | Open the intended local page | Passed |
+| Services search | Matching sections remain visible | Passed |
+| Enquiry required fields | Errors shown and focus moves to first invalid field | Passed |
+| Enquiry valid fields | Contextual acknowledgement shown | Passed |
+| Contact valid fields | Email application opens with subject/body | Passed |
+| Gallery image activation | Lightbox opens and closes by button/Escape | Passed |
+| Desktop/tablet/mobile | No unintended horizontal overflow; readable layout | Passed |
+| Console | No project JavaScript errors | Passed |
 
 ## Deployment (GitHub Pages)
 1. Create a **new repository** named `WEDE_Part_3` (or your lecturer's required naming convention).
